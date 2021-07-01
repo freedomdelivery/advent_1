@@ -28,13 +28,13 @@ fn main() {
 }
 
 fn add(first_number_str: &String, second_number_str: &String) -> i32 {
-    // Let's try using `unwrap()` to get the number out. Will it bite us?
+    //unwrap the number from string to i32
     let first_number = first_number_str.parse::<i32>().unwrap();
     let second_number = second_number_str.parse::<i32>().unwrap();
     first_number + second_number
 }
 fn multiply(first_number_str: &String, second_number_str: &String) -> i32 {
-    // Let's try using `unwrap()` to get the number out. Will it bite us?
+    //unwrap the number from string to i32
     let first_number = first_number_str.parse::<i32>().unwrap();
     let second_number = second_number_str.parse::<i32>().unwrap();
     first_number * second_number
